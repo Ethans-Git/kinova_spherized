@@ -1,4 +1,4 @@
-# GEN3 Spherized URDF Models
+# Kinova GEN3 Spherized URDF Models
 
 Spherized collision geometry variants of the Kinova GEN3 7-DOF arm with different fidelity levels for collision solver benchmarking.
 

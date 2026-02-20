@@ -17,7 +17,7 @@ Spherized collision geometry variants of the Kinova GEN3 7-DOF arm with differen
 | fid3  | 65                | `GEN3_URDF_V12_fid3.urdf` | `GEN3_URDF_V12_fid3_with_sphere_visuals.urdf` |
 | fid4  | 71                | `GEN3_URDF_V12_fid4.urdf` | `GEN3_URDF_V12_fid4_with_sphere_visuals.urdf` |
 | fid5  | 73                | `GEN3_URDF_V12_fid5.urdf` | `GEN3_URDF_V12_fid5_with_sphere_visuals.urdf` |
-| fid6  | 1037 (ultra-high) | `GEN3_URDF_V12_fid6.urdf` |
+| fid6  | 1037 (ultra-high) | `GEN3_URDF_V12_fid6.urdf` | `GEN3_URDF_V12_fid6_with_sphere_visuals.urdf` |
 
 ## File Variants
 

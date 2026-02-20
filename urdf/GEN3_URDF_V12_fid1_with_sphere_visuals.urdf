@@ -1,0 +1,283 @@
+<?xml version='1.0' encoding='utf-8'?>
+<robot name="GEN3_URDF_V12" version="1.0" path="../ros_kortex/kortex_description/arms/gen3/7dof/urdf/GEN3_URDF_V12.urdf">
+	<link name="base_link">
+		<inertial>
+			<origin xyz="-0.000648 -0.000166 0.084487" rpy="0 0 0" />
+			<mass value="1.697" />
+			<inertia ixx="0.004622" ixy="9E-06" ixz="6E-05" iyy="0.004495" iyz="9E-06" izz="0.002079" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.080039" />
+			</geometry>
+			<origin xyz="0.0007785224578669998 -0.0017097933369384477 0.1117584901283652" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.070082" />
+			</geometry>
+			<origin xyz="0.0015675224578669995 0.0013702066630615524 0.0445854901283652" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="0.0007785224578669998 -0.0017097933369384477 0.1117584901283652" rpy="0 0 0" /><geometry><sphere radius="0.080039" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.0015675224578669995 0.0013702066630615524 0.0445854901283652" rpy="0 0 0" /><geometry><sphere radius="0.070082" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="Shoulder_Link">
+		<inertial>
+			<origin xyz="-2.3E-05 -0.010364 -0.07336" rpy="0 0 0" />
+			<mass value="1.3773" />
+			<inertia ixx="0.00457" ixy="1E-06" ixz="2E-06" iyy="0.004831" iyz="0.000448" izz="0.001409" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.063944" />
+			</geometry>
+			<origin xyz="0.0021716835953777794 -0.005358394231774109 -0.03557747808885569" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.059129" />
+			</geometry>
+			<origin xyz="-0.0017653164046222208 -0.01698339423177411 -0.0907354780888557" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.059434" />
+			</geometry>
+			<origin xyz="-0.012154316404622221 -0.020888394231774108 -0.14191247808885568" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.057332" />
+			</geometry>
+			<origin xyz="0.01827568359537778 -0.02053039423177411 -0.1319314780888557" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="0.0021716835953777794 -0.005358394231774109 -0.03557747808885569" rpy="0 0 0" /><geometry><sphere radius="0.063944" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.0017653164046222208 -0.01698339423177411 -0.0907354780888557" rpy="0 0 0" /><geometry><sphere radius="0.059129" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.012154316404622221 -0.020888394231774108 -0.14191247808885568" rpy="0 0 0" /><geometry><sphere radius="0.059434" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.01827568359537778 -0.02053039423177411 -0.1319314780888557" rpy="0 0 0" /><geometry><sphere radius="0.057332" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="HalfArm1_Link">
+		<inertial>
+			<origin xyz="-4.4E-05 -0.09958 -0.013278" rpy="0 0 0" />
+			<mass value="1.1636" />
+			<inertia ixx="0.011088" ixy="5E-06" ixz="0" iyy="0.001072" iyz="-0.000691" izz="0.011255" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.076144" />
+			</geometry>
+			<origin xyz="0.0024591554989579897 -0.16731298276866788 -0.010715958197624867" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.063896" />
+			</geometry>
+			<origin xyz="-0.00356084450104201 -0.009487982768667885 -0.02791895819762487" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.056025" />
+			</geometry>
+			<origin xyz="0.00759015549895799 -0.08300298276866788 -0.03078095819762487" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.070914" />
+			</geometry>
+			<origin xyz="-0.0017708445010420101 -0.17367198276866788 3.404180237513363e-05" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="0.0024591554989579897 -0.16731298276866788 -0.010715958197624867" rpy="0 0 0" /><geometry><sphere radius="0.076144" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.00356084450104201 -0.009487982768667885 -0.02791895819762487" rpy="0 0 0" /><geometry><sphere radius="0.063896" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.00759015549895799 -0.08300298276866788 -0.03078095819762487" rpy="0 0 0" /><geometry><sphere radius="0.056025" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.0017708445010420101 -0.17367198276866788 3.404180237513363e-05" rpy="0 0 0" /><geometry><sphere radius="0.070914" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="HalfArm2_Link">
+		<inertial>
+			<origin xyz="-4.4E-05 -0.006641 -0.117892" rpy="0 0 0" />
+			<mass value="1.1636" />
+			<inertia ixx="0.010932" ixy="0" ixz="-7E-06" iyy="0.011127" iyz="0.000606" izz="0.001043" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.072702" />
+			</geometry>
+			<origin xyz="0.0021521918486141394 -0.00675409275333136 -0.04971723751050672" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.057158" />
+			</geometry>
+			<origin xyz="-0.0012388081513858608 -0.02232509275333136 -0.14462923751050671" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.064729" />
+			</geometry>
+			<origin xyz="0.00878819184861414 -0.02254309275333136 -0.21432323751050672" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.055379" />
+			</geometry>
+			<origin xyz="-0.02427180815138586 -0.01110009275333136 -0.2147002375105067" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="0.0021521918486141394 -0.00675409275333136 -0.04971723751050672" rpy="0 0 0" /><geometry><sphere radius="0.072702" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.0012388081513858608 -0.02232509275333136 -0.14462923751050671" rpy="0 0 0" /><geometry><sphere radius="0.057158" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.00878819184861414 -0.02254309275333136 -0.21432323751050672" rpy="0 0 0" /><geometry><sphere radius="0.064729" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.02427180815138586 -0.01110009275333136 -0.2147002375105067" rpy="0 0 0" /><geometry><sphere radius="0.055379" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="ForeArm_Link">
+		<inertial>
+			<origin xyz="-1.8E-05 -0.075478 -0.015006" rpy="0 0 0" />
+			<mass value="0.9302" />
+			<inertia ixx="0.008147" ixy="-1E-06" ixz="0" iyy="0.000631" iyz="-0.0005" izz="0.008316" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.064897" />
+			</geometry>
+			<origin xyz="-4.756327732268625e-05 -0.17171393058051282 -0.007694219276186056" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.054748" />
+			</geometry>
+			<origin xyz="-0.00048156327732268626 0.0024410694194871713 -0.028601219276186057" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.050066" />
+			</geometry>
+			<origin xyz="0.00044243672267731376 -0.08749393058051282 -0.030453219276186057" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.056498" />
+			</geometry>
+			<origin xyz="0.005076436722677314 -0.02449293058051283 -0.028229219276186057" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="-4.756327732268625e-05 -0.17171393058051282 -0.007694219276186056" rpy="0 0 0" /><geometry><sphere radius="0.064897" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.00048156327732268626 0.0024410694194871713 -0.028601219276186057" rpy="0 0 0" /><geometry><sphere radius="0.054748" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.00044243672267731376 -0.08749393058051282 -0.030453219276186057" rpy="0 0 0" /><geometry><sphere radius="0.050066" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.005076436722677314 -0.02449293058051283 -0.028229219276186057" rpy="0 0 0" /><geometry><sphere radius="0.056498" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="SphericalWrist1_Link">
+		<inertial>
+			<origin xyz="1E-06 -0.009432 -0.063883" rpy="0 0 0" />
+			<mass value="0.6781" />
+			<inertia ixx="0.001596" ixy="0" ixz="0" iyy="0.001607" iyz="0.000256" izz="0.000399" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.050777" />
+			</geometry>
+			<origin xyz="-0.0005151383669079727 -0.005433702194958815 -0.031079248731850168" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.047793" />
+			</geometry>
+			<origin xyz="0.003916861633092027 -0.019970702194958813 -0.07944224873185017" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.050534" />
+			</geometry>
+			<origin xyz="0.005196861633092027 -0.025885702194958813 -0.11303124873185016" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.037496" />
+			</geometry>
+			<origin xyz="-0.01962013836690797 -0.009446702194958814 -0.10986524873185016" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="-0.0005151383669079727 -0.005433702194958815 -0.031079248731850168" rpy="0 0 0" /><geometry><sphere radius="0.050777" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.003916861633092027 -0.019970702194958813 -0.07944224873185017" rpy="0 0 0" /><geometry><sphere radius="0.047793" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.005196861633092027 -0.025885702194958813 -0.11303124873185016" rpy="0 0 0" /><geometry><sphere radius="0.050534" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.01962013836690797 -0.009446702194958814 -0.10986524873185016" rpy="0 0 0" /><geometry><sphere radius="0.037496" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="SphericalWrist2_Link">
+		<inertial>
+			<origin xyz="1E-06 -0.045483 -0.00965" rpy="0 0 0" />
+			<mass value="0.6781" />
+			<inertia ixx="0.001641" ixy="0" ixz="0" iyy="0.00041" iyz="-0.000278" izz="0.001641" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.045726" />
+			</geometry>
+			<origin xyz="0.0016340378068379605 -0.00036152708103268094 -0.02665643638247195" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.051093" />
+			</geometry>
+			<origin xyz="0.0020550378068379606 -0.07929552708103269 -0.00850143638247195" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.049785" />
+			</geometry>
+			<origin xyz="-0.0002989621931620395 -0.08199152708103269 0.0059455636175280505" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.04266" />
+			</geometry>
+			<origin xyz="-0.0019229621931620396 -0.036846527081032684 -0.02511043638247195" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="0.0016340378068379605 -0.00036152708103268094 -0.02665643638247195" rpy="0 0 0" /><geometry><sphere radius="0.045726" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="0.0020550378068379606 -0.07929552708103269 -0.00850143638247195" rpy="0 0 0" /><geometry><sphere radius="0.051093" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.0002989621931620395 -0.08199152708103269 0.0059455636175280505" rpy="0 0 0" /><geometry><sphere radius="0.049785" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.0019229621931620396 -0.036846527081032684 -0.02511043638247195" rpy="0 0 0" /><geometry><sphere radius="0.04266" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="Bracelet_Link">
+		<inertial>
+			<origin xyz="-0.000281 -0.011402 -0.029798" rpy="0 0 0" />
+			<mass value="0.5006" />
+			<inertia ixx="0.000587" ixy="3E-06" ixz="3E-06" iyy="0.000369" iyz="0.000118" izz="0.000609" />
+		</inertial>
+		<collision>
+			<geometry>
+				<sphere radius="0.052306" />
+			</geometry>
+			<origin xyz="0.00021896626069306958 0.0007481597859556626 -0.03023176855002306" rpy="0 0 0" />
+		</collision>
+		<collision>
+			<geometry>
+				<sphere radius="0.051128" />
+			</geometry>
+			<origin xyz="-0.0015720337393069304 -0.005898840214044338 -0.03030776855002306" rpy="0 0 0" />
+		</collision>
+	<visual><origin xyz="0.00021896626069306958 0.0007481597859556626 -0.03023176855002306" rpy="0 0 0" /><geometry><sphere radius="0.052306" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual><visual><origin xyz="-0.0015720337393069304 -0.005898840214044338 -0.03030776855002306" rpy="0 0 0" /><geometry><sphere radius="0.051128" /></geometry><material name="sphere_material"><color rgba="0.2 0.6 1.0 0.9" /></material></visual></link>
+	<link name="EndEffector_Link" />
+	<joint name="Actuator1" type="continuous">
+		<origin xyz="0 0 0.15643" rpy="3.1416 2.7629E-18 -4.9305E-36" />
+		<parent link="base_link" />
+		<child link="Shoulder_Link" />
+		<axis xyz="0 0 1" />
+		<limit effort="39" velocity="0.8727" />
+	</joint>
+	<joint name="Actuator2" type="revolute">
+		<origin xyz="0 0.005375 -0.12838" rpy="1.5708 2.1343E-17 -1.1102E-16" />
+		<parent link="Shoulder_Link" />
+		<child link="HalfArm1_Link" />
+		<axis xyz="0 0 1" />
+		<limit lower="-2.41" upper="2.41" effort="39" velocity="0.8727" />
+	</joint>
+	<joint name="Actuator3" type="continuous">
+		<origin xyz="0 -0.21038 -0.006375" rpy="-1.5708 1.2326E-32 -2.9122E-16" />
+		<parent link="HalfArm1_Link" />
+		<child link="HalfArm2_Link" />
+		<axis xyz="0 0 1" />
+		<limit effort="39" velocity="0.8727" />
+	</joint>
+	<joint name="Actuator4" type="revolute">
+		<origin xyz="0 0.006375 -0.21038" rpy="1.5708 -6.6954E-17 -1.6653E-16" />
+		<parent link="HalfArm2_Link" />
+		<child link="ForeArm_Link" />
+		<axis xyz="0 0 1" />
+		<limit lower="-2.66" upper="2.66" effort="39" velocity="0.8727" />
+	</joint>
+	<joint name="Actuator5" type="continuous">
+		<origin xyz="0 -0.20843 -0.006375" rpy="-1.5708 2.2204E-16 -6.373E-17" />
+		<parent link="ForeArm_Link" />
+		<child link="SphericalWrist1_Link" />
+		<axis xyz="0 0 1" />
+		<limit effort="9" velocity="0.8727" />
+	</joint>
+	<joint name="Actuator6" type="revolute">
+		<origin xyz="0 0.00017505 -0.10593" rpy="1.5708 9.2076E-28 -8.2157E-15" />
+		<parent link="SphericalWrist1_Link" />
+		<child link="SphericalWrist2_Link" />
+		<axis xyz="0 0 1" />
+		<limit lower="-2.23" upper="2.23" effort="9" velocity="0.8727" />
+	</joint>
+	<joint name="Actuator7" type="continuous">
+		<origin xyz="0 -0.10593 -0.00017505" rpy="-1.5708 -5.5511E-17 9.6396E-17" />
+		<parent link="SphericalWrist2_Link" />
+		<child link="Bracelet_Link" />
+		<axis xyz="0 0 1" />
+		<limit effort="9" velocity="0.8727" />
+	</joint>
+	<joint name="EndEffector" type="fixed">
+		<origin xyz="0 0 -0.0615250000000001" rpy="3.14159265358979 1.09937075168372E-32 0" />
+		<parent link="Bracelet_Link" />
+		<child link="EndEffector_Link" />
+		<axis xyz="0 0 0" />
+	</joint>
+</robot>
